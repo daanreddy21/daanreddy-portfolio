@@ -535,6 +535,10 @@ ul {
   background: linear-gradient(135deg, #112d30, #465d32);
 }
 
+.tableau {
+  background: linear-gradient(135deg, #11304d, #1f746d);
+}
+
 .project-actions {
   display: flex;
   flex-wrap: wrap;
@@ -548,6 +552,11 @@ ul {
   font-weight: 900;
   border-bottom: 1px solid var(--accent);
   padding-bottom: 5px;
+}
+
+.muted-link {
+  color: var(--muted);
+  border-bottom-color: var(--line);
 }
 
 .split {
